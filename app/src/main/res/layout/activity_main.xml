@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your username and password below to login:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username:"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password:"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp" />
+
+</LinearLayout>
